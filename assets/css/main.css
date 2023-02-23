@@ -761,7 +761,7 @@ input, select, textarea {
 			input[type="reset"].style2.down,
 			.button.style2.down,
 			button.style2.down {
-				background-image: url("images/arrow.svg");
+				background-image: url("images/dark-arrow.svg");
 			}
 
 /* Form */
@@ -2059,7 +2059,9 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
+				display: flex;
 				border-color: #ffffff;
+				background-color: black;
 			}
 
 				.main.dark .button.style2:hover {
@@ -2244,7 +2246,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
